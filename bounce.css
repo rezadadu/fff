@@ -1,0 +1,263 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.abba {
+  background: rgb(24, 22, 22);
+  height: 100vh;
+}
+.amma {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.one {
+  background: rgb(106, 146, 31);
+  height: 100px;
+  width: 100px;
+  animation: onea 3s infinite;
+  position: relative;
+  top: 400px;
+  margin-top: 28px;
+  border-radius: 50px;
+}
+.two {
+  background: rgb(21, 32, 194);
+  height: 100px;
+  width: 100px;
+  margin-top: 28px;
+  animation: twoa 2.2s infinite;
+  position: relative;
+  top: 200px;
+  border-radius: 50px;
+}
+.three {
+  background: rgb(34, 98, 172);
+  height: 100px;
+  width: 100px;
+  margin-top: 28px;
+  border-radius: 50px;
+  animation: threea 1s infinite;
+  position: relative;
+  top: 100px;
+}
+.four {
+  background: rgb(192, 48, 48);
+  height: 100px;
+  width: 100px;
+  margin-top: 28px;
+  border-radius: 50px;
+  animation: foura 3s infinite;
+}
+.gari {
+  border: 2px solid black;
+  height: 30px;
+  width: 300px;
+  border-radius: 10px;
+  position: relative;
+  top: 400px;
+  animation: garicole 2s infinite;
+  margin-left: 25px;
+  background: rgb(255, 6, 6);
+}
+
+@keyframes garicole {
+  0% {
+    left: 200px;
+  }
+  10% {
+    background-color: yellow;
+  }
+  15% {
+    background-color: red;
+  }
+  20% {
+    background-color: blue;
+  }
+  25% {
+    background-color: green;
+  }
+  30% {
+    background-color: white;
+  }
+  35% {
+    background-color: darkorchid;
+  }
+  40% {
+    background-color: orange;
+  }
+  50% {
+    left: 1200px;
+    position: relative;
+    background: crimson;
+  }
+  75% {
+    background-color: deeppink;
+  }
+  80% {
+    background-color: rgb(255, 217, 4);
+  }
+  85% {
+    background-color: rgb(66, 252, 9);
+  }
+  90% {
+    background-color: rgb(255, 20, 90);
+  }
+  95% {
+    background-color: rgb(81, 9, 250);
+  }
+
+  100% {
+    left: 200px;
+    position: relative;
+  }
+}
+@keyframes onea {
+  0% {
+    bottom: ;
+    position: relative;
+  }
+  10% {
+    background-color: yellow;
+  }
+  15% {
+    background-color: red;
+  }
+  20% {
+    background-color: blue;
+  }
+  25% {
+    background-color: green;
+  }
+  30% {
+    background-color: white;
+  }
+  35% {
+    background-color: darkorchid;
+  }
+  40% {
+    background-color: orange;
+  }
+  50% {
+    top: -10px;
+    position: relative;
+  }
+  100% {
+    top: 400px;
+    position: relative;
+  }
+}
+@keyframes twoa {
+  0% {
+    top: 5px;
+    position: relative;
+  }
+  10% {
+    background-color: yellow;
+  }
+  15% {
+    background-color: red;
+  }
+  20% {
+    background-color: blue;
+  }
+  25% {
+    background-color: green;
+  }
+  30% {
+    background-color: white;
+  }
+  35% {
+    background-color: darkorchid;
+  }
+  40% {
+    background-color: orange;
+  }
+  50% {
+    top: 400px;
+    position: relative;
+  }
+  100% {
+    top: 5px;
+    position: relative;
+  }
+}
+@keyframes threea {
+  0% {
+    top: 5px;
+    position: relative;
+  }
+  10% {
+    background-color: yellow;
+  }
+  15% {
+    background-color: red;
+  }
+  20% {
+    background-color: blue;
+  }
+  25% {
+    background-color: green;
+  }
+  30% {
+    background-color: white;
+  }
+  35% {
+    background-color: darkorchid;
+  }
+  40% {
+    background-color: orange;
+  }
+  50% {
+    top: 400px;
+    position: relative;
+  }
+  100% {
+    top: 5px;
+    position: relative;
+  }
+}
+@keyframes foura {
+  0% {
+    top: 5px;
+    position: relative;
+    background-color: aqua;
+  }
+  10% {
+    background-color: yellow;
+  }
+  15% {
+    background-color: red;
+  }
+  20% {
+    background-color: blue;
+  }
+  25% {
+    background-color: green;
+  }
+  30% {
+    background-color: white;
+  }
+  35% {
+    background-color: darkorchid;
+  }
+  40% {
+    background-color: orange;
+  }
+  50% {
+    top: 400px;
+    position: relative;
+    background: rgb(255, 0, 0);
+  }
+  100% {
+    top: 5px;
+    background-color: aqua;
+    position: relative;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
